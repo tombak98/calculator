@@ -1,0 +1,72 @@
+/* stlye */
+
+body {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainframe, .display, #buttons {
+    display: flex;
+}
+
+#mainframe {
+    width: 400px;
+    height: 550px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    background-color: #8c8c8c;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.display {
+    width: 350px;
+    height: 100px;
+    background-color: #e6e6e6;
+    margin-top: 0px;
+    flex-direction: column;
+    padding: 5px;
+    align-items:center;
+    justify-content: center;
+}
+
+.readout, .result {
+    width: 325px;
+    height: 45px;
+    text-align:end;
+    font-size: 35px;
+}
+
+.clear {
+    width: 350px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #ff8080;
+    font-size: 20px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.number, #plus, #minus, #multiply, #divide, #equal, #decimal {
+    width: 75px;
+    height: 75px;
+    font-size: 20px;
+}
+
+#plus, #minus, #multiply, #divide, #equal {
+    background-color: #99bbff;
+}
